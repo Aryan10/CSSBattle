@@ -1,7 +1,7 @@
-/* Basic styling */
 body {
   font-family: 'Trebuchet MS', sans-serif;
   background-color: black;
+  background-image: url(https://cdn.glitch.global/a6d38358-645b-4565-892b-ed26a2b1f14f/artistic-blurry-colorful-wallpaper-background_58702-8620.avif?v=1710266355650);
   font-weight: 800;
 }
 
@@ -30,7 +30,7 @@ body {
   height: 550px;
   margin: auto;
   margin-top: 55px;
-  border: 1px solid #dddddd;
+  border-radius: 40px;
   padding: 30px;
   padding-top: 15px;
   padding-left: 100px;
@@ -138,6 +138,7 @@ input[type="submit"] {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  margin-right: 15px;
 }
 .fa:hover {
   opacity: 0.7;
