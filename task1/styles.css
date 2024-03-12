@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Form</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="tab">
+      <span class="taboption">HOME</span>
+      <span class="taboption">BLOG</span>
+      <span class="taboption">ABOUT</span>
+      <span class="contacttab">CONTACT</span>
+    </div>
+    <div>      
+    <h1>JUST SAY HELLO!</h1>
+    <p>JUST LET US KNOW MORE ABOUT YOU</p>
+    <form>
+      <div class="namediv">
+      <span class="form-group">
+        <input type="text" id="fname" name="firstname" placeholder="FIRST NAME">
+      </span>
+      <span class="form-group">
+        <input type="text" id="lname" name="lastname" placeholder="LAST NAME">
+      </span>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="EMAIL">
+      </div>
+      <div class="form-group">
+        <textarea id="message" name="message" placeholder="MESSAGE"></textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="SUBMIT">
+      </div>
+    </form>
+    </div>
+    <div class="contact">
+        <div class="contact-head">CONTACT<br>INFORMATION</div>
+        <div class="address-field">CSED, MNNIT ALLAHABAD<br>PRAYAGRAJ-211004</div>
+        <div class="address-field">CALL US: +91-4794685713</div><br><br>
+        <div id="follow-us-text">FOLLOW US<br></div>
+        <div>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+    </div>  
+</body>
+</html>
