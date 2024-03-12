@@ -1,0 +1,156 @@
+/* Basic styling */
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: black;
+  font-weight: 800;
+}
+
+.tab {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.taboption {
+  color: white;
+  width: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 25px;
+}
+
+.contacttab {
+  width: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 25px;
+}
+
+.container {
+  width: 1200px;
+  height: 550px;
+  margin: auto;
+  margin-top: 55px;
+  border: 1px solid #dddddd;
+  padding: 30px;
+  padding-top: 15px;
+  padding-left: 100px;
+  text-align: left;
+  font-size: 15;
+  color: #ab4fb5;
+  background-color: #0a0a4b;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 42%;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #464691;
+}
+
+#namediv {
+  display: inline-block;
+}
+
+#fname {
+  width: 18%;
+  margin-right: 2%;
+}
+
+#lname {
+  width: 18%;
+  margin-left: 2%;
+}
+
+textarea {
+  height: 150px;
+  background-color: #464691;
+}
+
+input[type="submit"] {
+  background-color: #c85ac8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.contact {
+  position: absolute;
+  top: 200px;
+  left: 1040px;
+  text-align: left;
+  font-weight: 800;
+}
+
+.contact-head {
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.address-field {
+  color: white;
+  margin: 15px;
+  margin-left: 0px;
+}
+
+#follow-us-text {
+  font-size: 33px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #d46f91;
+  color: white;
+}
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
